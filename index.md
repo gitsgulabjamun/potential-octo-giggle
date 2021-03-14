@@ -21,7 +21,7 @@ At my current company, I was instrumental in implementing a Sharp-and-Clear-Line
 Here’s my employment history:
 
     {% for item in site.data.employment %}
-    {{ item.years }}, {{ item.company }}
+    - {{ item.years }}: {{ item.company }}
     {% endfor %}
 
 What am I looking for?
