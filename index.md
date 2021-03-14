@@ -9,6 +9,8 @@ Who am I?
 
 My name is {{ page.author }}.
 
+This was done as {{ site.what }} in the {{ site.when }}.
+
 My name is Caran D’Arche. I am a pencil, and I was born in Geneva. A few days after my birth, my family moved to Bangalore, where I went to school and college. I graduated top of my class from the Faber-Castell Architecture University, and interned as draughtsperson at Kohinoor Hardtmuth.
 
 What do I do?
