@@ -1,6 +1,6 @@
 ---
 layout: template_demo
-author: R L Stevenson
+author: Robert Louis Stevenson
 ---
 
 # Home page
@@ -20,10 +20,9 @@ At my current company, I was instrumental in implementing a Sharp-and-Clear-Line
 
 Here’s my employment history:
 
-1806 - present: Newell Musgrave LLC
-1781 - 1806: Derwent Cumberland Co
-1765 - 1781: Staedtler Mars GmbH
-1757 - 1765: Dixon Ticonderoga Inc
+    {% for item in site.data.employment %}
+    {{ item.company }}, {{ item.years }}
+    {% endfor %}
 
 What am I looking for?
 
